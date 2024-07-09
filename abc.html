@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李小仙</title>
+
+    <style>
+        p{
+            color: rgb(255, 94, 0);
+            font: 200;
+        }
+        h2{
+            color:blue
+        }
+        .nba{
+            background-color: aquamarine;
+        }
+        #nig{
+            font-size: larger;
+        }
+        *{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        /* jj */
+        .father>.son{
+            color: chartreuse;
+        }
+        h3+p{
+            color: blueviolet;
+        }
+        #ele:hover{
+            background-color: blanchedalmond;
+        }
+        .abc{
+            width: 100px;
+        }
+        .block{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+        .dome{
+            background-color: cyan;
+            font-size: xx-large;
+            display:inline-block;
+            border: 10px dashed rgb(116, 167, 15);
+        }
+        .border{
+            background-color: chartreuse;
+            width: 200px;
+            height: 200px;
+            border-style: dashed;
+            border-width: 10px 20px;
+            border-color: blueviolet;
+            padding: 20px;
+        }
+        .father{
+            background-color: brown;
+            width: 500px;
+            overflow: hidden;
+        }
+        .left-son{
+            width: 100px;
+            height: 100px;
+            background-color: chocolate;
+            float:left;
+        }
+        .right-son{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            float:right;
+        }
+        .fix{
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            position:fixed;
+            right:0;
+            top:300px;
+        }
+        .sx{
+            font-size: xx-large;
+            font-family: KaiTi;
+        }
+    </style>
+    <script>
+        console.log('hello宁芳芳')
+    </script>
+</head>
+<body>
+    <p>你好</p>
+    <p>宁芳芳吃粑粑</p>
+    <h1>好大有个宁芳芳</h1>
+    <h2>sdj</h2>
+    <h3 class="nba">hh</h3>
+    <h4 id="nig">dfghjk</h4>
+    <div class="father">
+        <p class="son">子元素</p>
+        <div class="grangson">
+            <p class="ok">你猜</p>
+        </div>
+    </div>
+    <h5 id="ele">伪类选择器</h5>
+    <a href="https://v.qq.com/">宁芳芳私密照片</a>
+    <p style="font:bolder 50px 'KaiTi">复合属性已</p>
+    <div class="block">这是一个块及元素</div>
+    <br><br>
+    <hr>
+    <span>这是一个行内元素</span>
+    <img src="./ab.png" alt="" class="abc"><br>
+    <div class="dome">b站搜索宁芳芳  前端</div>
+    <div class="border">这是一个边框实例</div>
+    <div class="father">
+        <div class="left-son">左浮动</div>
+        <div class="right-son">又浮动</div>
+        <p>zhi</p>
+    </div>
+    <div class="fix">他不懂你的心</div>
+    <p class="sx">js引入</p>
+    <button onclick="cl()">点击领取李楷瑞</button>
+    <input type="text" onfocus="focus_event()" onblur="blur_event()">
+    <script>
+        //点击
+        function cl(){
+            alert('抱歉，已被领取完');
+        }
+        //聚焦
+        function focus_event(){
+            console.log('点到罗 你真棒');
+        }
+        //失焦
+        function blur_event(){
+            console.log('傻逼 没点到');
+        }
+    </script>
+</body>
+</html>
